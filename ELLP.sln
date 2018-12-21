@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ELLP.Web", "ELLP.Web\ELLP.Web.csproj", "{465FCBCC-6885-4819-A518-4EC5406734FB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ELLP.Web", "ELLP.Web\ELLP.Web.csproj", "{920BEB15-3E7E-46AF-B74F-579740B5BD64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ELLP.Web.Tests", "ELLP.Web.Tests\ELLP.Web.Tests.csproj", "{E33D5DAB-4459-49C5-98F6-33A0E19E165E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ELLP.Web.Tests", "ELLP.Web.Tests\ELLP.Web.Tests.csproj", "{E0ABF1B2-37B4-4761-AB80-8DE7D153F119}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,19 +13,31 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{465FCBCC-6885-4819-A518-4EC5406734FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{465FCBCC-6885-4819-A518-4EC5406734FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{465FCBCC-6885-4819-A518-4EC5406734FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{465FCBCC-6885-4819-A518-4EC5406734FB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E33D5DAB-4459-49C5-98F6-33A0E19E165E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E33D5DAB-4459-49C5-98F6-33A0E19E165E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E33D5DAB-4459-49C5-98F6-33A0E19E165E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E33D5DAB-4459-49C5-98F6-33A0E19E165E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{920BEB15-3E7E-46AF-B74F-579740B5BD64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{920BEB15-3E7E-46AF-B74F-579740B5BD64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{920BEB15-3E7E-46AF-B74F-579740B5BD64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{920BEB15-3E7E-46AF-B74F-579740B5BD64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0ABF1B2-37B4-4761-AB80-8DE7D153F119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0ABF1B2-37B4-4761-AB80-8DE7D153F119}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0ABF1B2-37B4-4761-AB80-8DE7D153F119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0ABF1B2-37B4-4761-AB80-8DE7D153F119}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C6A1AC6E-C945-45C1-AD69-ECEE8E81B309}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://naarasimhaece04.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ELLP.Web\\ELLP.Web.csproj
+		SccProjectName1 = ELLP.Web
+		SccLocalPath1 = ELLP.Web
+		SccProjectUniqueName2 = ELLP.Web.Tests\\ELLP.Web.Tests.csproj
+		SccProjectName2 = ELLP.Web.Tests
+		SccLocalPath2 = ELLP.Web.Tests
 	EndGlobalSection
 EndGlobal
